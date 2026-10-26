@@ -46,7 +46,7 @@ python3 -m http.server 8080 -d dist  # open http://localhost:8080 on a phone or 
 node --test tests/*.test.js          # 12 engine tests
 ```
 
-To use it in the field, host `dist/` on any static HTTPS host. This repo deploys to **GitHub Pages** automatically: `.github/workflows/pages.yml` runs the tests, builds, and publishes on every push to `main`. To turn it on once, go to **Settings → Pages → Source** and choose **GitHub Actions**. The app is then served at `https://tichaonadamis.github.io/ai-healthcare-assistant/`. Open it once on each phone, then choose **Add to Home screen**. After that it works with no internet.
+To use it in the field, host `dist/` on any static HTTPS host. This repo deploys to **GitHub Pages** automatically: `.github/workflows/pages.yml` runs the tests, builds, and publishes on every push to `main`. To turn it on once, go to **Settings → Pages → Source** and choose **GitHub Actions**. The app is then served at `https://tichaonadamis.github.io/AI-Healthcare-Assistant/`. Open it once on each phone, then choose **Add to Home screen**. After that it works with no internet.
 
 ## Project layout
 
