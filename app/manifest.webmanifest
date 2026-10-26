@@ -1,0 +1,14 @@
+{
+  "name": "CareReach Health Assistant",
+  "short_name": "CareReach",
+  "description": "Offline-first health assistant for community health workers: symptom triage, health education, patient records and referrals.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF2EF",
+  "theme_color": "#0B6E55",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
